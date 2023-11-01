@@ -7,22 +7,22 @@ body{
 
 h1{
     font-family: 'Lobster', sans-serif;
-    font-size: 80px;
+    font-size: 3rem;
 }
 
 h2{
   font-family: 'Lobster', sans-serif;
-  font-size : 20px;
+  font-size : 2rem;
 }
 
 h3{
   font-family: 'Lobster', sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 p{
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .listskills{
@@ -85,7 +85,7 @@ nav li a {
   text-decoration: none;
   font-variant: normal;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1rem;
   color: rgb(183, 183, 183);
   display:inline-block;  
 }
