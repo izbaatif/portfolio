@@ -1,0 +1,73 @@
+/*Mobile Size*/
+@media only screen and (max-width: 1000px){
+    
+    .background a{
+        color:white;
+      }
+      
+      .background a:hover{
+        color:lightgrey;
+      }
+
+    .container{
+        width: 80%;
+        padding-left:10%;
+    }
+
+    .project{
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    .projectimg{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+    }
+
+    .projectdata{
+        position: relative;
+        left:30px;
+        text-align: left;
+    }
+
+
+
+}
+    
+/*Tablet and desktop*/
+    
+@media only screen and (min-width: 1001px){
+
+    .background a{
+        color:white;
+      }
+      
+      .background a:hover{
+        color:lightgrey;
+      }
+
+    .container{
+        width: 80%;
+        padding-left:10%;
+    }
+
+    .project{
+        text-align: left;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    .projectimg{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        float: left;
+    }
+
+    .projectdata{
+        position: relative;
+        left:30px;
+    }
+
+}

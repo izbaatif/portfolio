@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> InterrogatorX </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+        <!--roboto font-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+
+        <!--lobster font-->
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/project.css">
+        
+         <!---Javascript for bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    </head>
+
+  <body>
+
+    <!--Navigation Bar-->
+    <nav> 
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id= "toggle"/>
+      <div id = "menu">
+          <ol>
+              <li><a href="index.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li  class="selected"><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>   
+          </ol>
+      </div>
+    </nav>
+   
+    <div class="background">
+      <h1> InterrogatorX </h1>
+      <div class = "info">
+
+        <iframe class="vid" src="https://www.youtube.com/embed/eE0wHs6SRoI?si=7vu7Td-BqKJim56x" title="YouTube video player"></iframe>
+        <h3> Github Link : <a href="https://github.com/izbaatif/interrogatorX"> https://github.com/izbaatif/interrogatorX </a></h3>
+        <h3> View report : <a href="https://docs.google.com/document/d/1c53bgSWOvr37Tf3HsVyxM4_MbwBv3EvDqE_retjyPyY/edit?usp=sharing"> https://docs.google.com/document/d/1c53bgSWOvr37Tf3HsVyxM4_MbwBv3EvDqE_retjyPyY/edit?usp=sharing </a></h3>
+        
+        <p> InterrogatorX: This is a straightforward web application designed for the classification of news articles as either genuine or fake. It comprises two input fields that enable users to input the title of the news article and the content within the article. Users can also choose from one of three available options in the dropdown menu (explained further below) to determine if the news article is real or fake. </p>
+        
+        <p> Data Collection and Model Training: In the initial phase, a substantial dataset for training the model on fake news was obtained from Kaggle. The model employs three distinct feature extraction techniques represented by the available dropdown options, which are: Bag of Words, TF-IDF Vectorization, and Word2Vec. For each feature extractor, the machine learning algorithm that yielded the highest accuracy was selected. Subsequently, these models were saved and exported into pickle files.</p>
+        
+        <p> Integration and Implementation: The pickle files containing the trained models and data were then imported into the Python backend, which was developed using Flask. When a user enters data into the web application, this information is passed to the respective models to provide a functional and user-friendly interface. </p>
+        
+        <p> Technologies used :
+          <ul class="listskills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Flask</li>
+          <li>Data Analysis using python</li>
+          <li>AI using Python</li>
+      </ul></p>
+
+  
+    
+  </body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> products </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+        <!--roboto font-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+
+        <!--lobster font-->
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/project.css">
+        
+         <!---Javascript for bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    </head>
+
+  <body>
+
+    <!--Navigation Bar-->
+    <nav> 
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id= "toggle"/>
+      <div id = "menu">
+          <ol>
+              <li><a href="index.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li  class="selected"><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>   
+          </ol>
+      </div>
+    </nav>
+   
+    <div class="background">
+      <h1> Products Database  </h1>
+      <div class = "info">
+
+        <h3> Github Link : <a href="https://github.com/izbaatif/productsDatabase"> https://github.com/izbaatif/productsDatabase </a></h3>
+        <h3> View Report : <a href="https://docs.google.com/document/d/1DmOhB_yEgqpOJc4OfcB4VN_3iQnUR8FYYN2SJwWcmTY/edit?usp=sharing"> https://docs.google.com/document/d/1DmOhB_yEgqpOJc4OfcB4VN_3iQnUR8FYYN2SJwWcmTY/edit?usp=sharing </a></h3>
+
+        <p> This is a project in which the csv tables were first imported into mysql and then normalised. It includes a website with the pages buy products which is accessible to anyone and when the button is pressed to buy item, it adds it to the orders table. The other two pages, add products or edit products is only available to the admin of the website and they use the mySQL crud funcionalities.  </p>
+        
+        <p> Technologies used :
+          <ul class="listskills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Node js</li>
+          <li>MySQL</li>
+          <li>Express</li>
+      </ul></p>
+
+  
+    
+  </body>
+
+</html>

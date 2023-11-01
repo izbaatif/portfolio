@@ -1,0 +1,135 @@
+/*Mobile Size*/
+@media only screen and (max-width: 1000px){
+
+    .background a{
+        color:white;
+      }
+      
+      .background a:hover{
+        color:lightgrey;
+      }
+
+    .skills-container{
+        display: flex; /* Use flexbox to make skills appear inline */
+        overflow-x: auto; /* Add a horizontal scrollbar when skills overflow */
+        max-width: 100%;
+        overflow-x: auto;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .skills-container::-webkit-scrollbar {
+        width: 10px;
+    }
+  
+    .skills-container::-webkit-scrollbar-thumb {
+        background: lightgrey; /* Color of the thumb */
+        border-radius: 10px;
+    }
+  
+     .skills-container::-webkit-scrollbar-thumb:hover {
+        background: #888; /* Color of the thumb on hover */
+    }
+  
+    /* Style the scrollbar for non-webkit browsers (Firefox, Edge) */
+    .skills-container {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #333; /* Color of the thumb and the track */
+    }
+  
+    .skills-container::-webkit-scrollbar-track {
+        background: #333; /* Color of the track */
+    }
+
+
+    .skillname{
+        flex: 0 0 auto; /* Allow skills to shrink if needed, but not grow */
+        float:left;
+        text-align: center;
+        margin:10px 20px;
+        max-width: 200px;
+    }
+
+    .skillimg{
+        width:100px;
+        height:100px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .skilldata{
+        text-align: center;
+    }
+
+
+}
+    
+/*Tablet and desktop*/
+    
+@media only screen and (min-width: 1001px){
+
+    .background a{
+        color:white;
+      }
+      
+      .background a:hover{
+        color:lightgrey;
+      }
+
+    .skills-container{
+        display: flex; /* Use flexbox to make skills appear inline */
+        overflow-x: auto; /* Add a horizontal scrollbar when skills overflow */
+        max-width: 100%;
+        overflow-x: auto;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .skills-container::-webkit-scrollbar {
+        width: 10px;
+    }
+  
+    .skills-container::-webkit-scrollbar-thumb {
+        background: lightgrey; /* Color of the thumb */
+        border-radius: 10px;
+    }
+  
+     .skills-container::-webkit-scrollbar-thumb:hover {
+        background: #888; /* Color of the thumb on hover */
+    }
+  
+    /* Style the scrollbar for non-webkit browsers (Firefox, Edge) */
+    .skills-container {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #333; /* Color of the thumb and the track */
+    }
+  
+    .skills-container::-webkit-scrollbar-track {
+        background: #333; /* Color of the track */
+    }
+
+
+    .skillname{
+        flex: 0 0 auto; /* Allow skills to shrink if needed, but not grow */
+        float:left;
+        text-align: center;
+        margin:10px 20px;
+        max-width: 200px;
+    }
+
+    .skillimg{
+        width:100px;
+        height:100px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .skilldata{
+        text-align: center;
+    }
+
+}

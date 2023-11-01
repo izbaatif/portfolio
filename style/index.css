@@ -1,0 +1,58 @@
+/*Mobile Size*/
+@media only screen and (max-width: 1000px){
+
+    .meImg{
+      width:200px;
+      height:200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .about{
+      padding-top: 50px;
+    }
+    
+    .intro{
+      text-align: left;
+      padding:10px 20px 0px 20px;
+    }
+    
+    .listskills{
+      text-align: left;
+      padding-left: 60px
+    }
+    
+    }
+    
+    /*Tablet and desktop*/
+    
+    @media only screen and (min-width: 1001px){
+    
+    .meImg{
+      margin-left:3%;
+      max-width:350px;
+      height:auto;
+      object-fit: cover;
+      border-radius: 50%;
+      float:left;
+      margin-top: 150px
+    }
+    
+    .about{
+      padding-top: 50px;
+      float:right;
+      max-width: 60%;
+    }
+    
+    .intro{
+      text-align: left;
+      padding:10px 20px 0px 20px;
+    
+    }
+    
+    .listskills{
+      text-align: left;
+      padding-left: 60px
+    }
+    
+    }
