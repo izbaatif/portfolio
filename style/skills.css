@@ -47,8 +47,8 @@
         flex: 0 0 auto; /* Allow skills to shrink if needed, but not grow */
         float:left;
         text-align: center;
-        margin:10px 30px;
-        max-width: 300px;
+        padding: 10px 30px;
+        width: 300px;
     }
 
     .skillimg{
